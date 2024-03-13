@@ -146,10 +146,10 @@ document.write(e +"<br>")
 
 // /  assigment 9 task//////
 
- var arr = ["laraib","usman","haider","raza","abid","noor","<br>"]
- document.write(arr)
- var arr2 = arr.slice(0,4,)
- document.write(arr2,"<br>","<br>")
+var arr = [23,45,67,79,88,78,345]
+document.write(arr,"<br>")
+var b = arr.slice(1,4)
+document.write(b,"<br>")
 
 
 var arr = ["laraib","usman","haider","raza","abid","noor","<br>"]
@@ -158,9 +158,11 @@ arr.splice(1,4)
 document.write(arr2,"<br>","<br>")
 
 
-var arr = ["laraib","usman","haider","raza","abid","noor","<br>"]
-document.write(arr)
+var arr = [23,45,67,79,88,78,345]
+document.write(arr,"<br>")
+
 arr.shift()
+var shift = arr
 document.write(arr,"<br>","<br>")
 
 var arr = ["laraib","usman","haider","raza","abid","noor","<br>"]
@@ -168,10 +170,12 @@ document.write(arr)
 arr.unshift("orange")
 document.write(arr,"<br>","<br>")
 
-var arr = ["laraib","usman","haider","raza","abid","noor"]
+var arr = [23,45,67,79,88,78,345]
 document.write(arr,"<br>")
-var arr1 = ["laraib","usman","haider","raza","abid","noor"]
-arr.pop()
+
+arr.pop ()
+var name = arr
+
 document.write(arr,"<br>","<br>")
 
 
@@ -223,5 +227,9 @@ var e=arr.pop ()
 document.write(e +"<br>")
 
 
+var arr = [23,45,56,56,78,89,90,23]
+ document.write(arr,"<br>")
+  arr.push("asad","roha","rohan","janat")
+  document.write(arr)
 
 // for loop//////
